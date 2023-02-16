@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no" />
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Title -->
+    <title>E化工作入口</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+
+</head>
+<style>
+    .header-area .original-nav-area .classynav ul li a.nav-link-active {
+        color: #fc2e05;
+    }
+</style>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preload-content">
+            <div id="original-load"></div>
+        </div>
+    </div>
+
+    <!-- Subscribe Modal -->
+    <div class="subscribe-newsletter-area">
+        <div class="modal fade" id="subsModal" tabindex="-1" role="dialog" aria-labelledby="subsModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    <div class="modal-body">
+                        <h5 class="title">Subscribe to my newsletter</h5>
+                        <form action="#" class="newsletterForm" method="post">
+                            <input type="email" name="email" id="subscribesForm2" placeholder="Your
+                                    e-mail here" />
+                            <button type="submit" class="btn original-btn">
+                                    Subscribe
+                                </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Nav Area -->
+        <div class="original-nav-area" id="stickyNav">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between">
+                        <!-- Subscribe btn -->
+                        <div class="subscribe-btn">
+                            <a href="index.html" class="btn subscribe-btn">E化工作入口</a>
+                        </div>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu" id="originalNav">
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap">
+                                    <span class="top"></span><span class="bottom"></span>
+                                </div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="share.html">共用</a></li>
+                                    <li><a href="HR.html">人事</a></li>
+                                    <li><a href="financial.html">財務</a></li>
+                                    <li><a href="workflow.html">工作記錄</a></li>
+                                    <li><a href="maintenance.html">維運</a></li>
+                                    <li><a href="hotfix.html">HOTFIX</a></li>
+                                    <li><a href="other.html" class="nav-link-active">其他</a></li>
+
+                                    <a href="http://confluence.iwerp.net:8090/dashboard.action" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Confluence"><i
+                                                class="fa fa-scissors mr
+                                                roate-90"
+                                                aria-hidden="true"></i></a>
+                                    <a href="https://werp-jenkins.iwerp.net:8443/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Jenkins機房"><i class="fa
+                                                fa-user-circle mr"
+                                                aria-hidden="true"></i></a>
+                                    <a href=" http://jenkins.iwerp.test:8080/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Jenkins辦公室"><i class="fa
+                                                fa-user-circle-o mr"
+                                                aria-hidden="true"></i></a>
+                                    <a href="http://werp-gateway.chungyo.net:8080/secure/Dashboard.jspa" target="_blank" data-toggle="tooltip" data-placement="bottom" title="JIRA"><i class="fa
+                                                fa-file-text mr"
+                                                aria-hidden="true"></i></a>
+                                </ul>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Single Blog Area Start ##### -->
+    <div class="single-blog-wrapper section-padding-0-100">
+        <div class="container">
+            <!-- tab -->
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#home">輔助工具</a></li>
+                <li><a data-toggle="tab" href="#menu1">文件／手冊</a></li>
+                <li><a data-toggle="tab" href="#menu2">外部網站</a></li>
+                <!-- <li><a data-toggle="tab" href="#menu3">jLIVE應用程式測試區</a></li>
+                <li><a data-toggle="tab" href="#menu4">舊版Ｅ化入口</a></li> -->
+            </ul>
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                    <div class="mt-70">
+                        <h4>輔助工具</h4>
+                        <table class="black">
+                            <tr>
+                                <td width="50px">
+                                    <span>機房</span>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><a href="http://confluence.iwerp.net:8090/" target="_blank">e2-confluence</a></li>
+                                        <li><a href="http://werp-gateway.chungyo.net:8080/secure/Dashboard.jspa" target="_blank">e2-jira</a></li>
+                                        <li><a href="http://werp-gateway.chungyo.net/cacti/" target="_blank">e2-cacti</a></li>
+                                        <li><a href="http://pinpoint-int06.iwerp.net/" target="_blank">e2-pinpoint</a> (add hosts 124.219.100.19 pinpoint-int06.iwerp.net)
+                                            <a href="http://confluence.iwerp.net:8090/display/0AE/DONE_15_e1-pinpoint+link">pinpoint 連結對應表</a> </li>
+                                        <li><a href="https://werp-jenkins.iwerp.net:8443/" target="_blank">e2-jenkins</a></li>
+                                        <li><a href="http://werp-gateway.chungyo.net:8081/" target="_blank">e2-nexus</a></li>
+                                        <li><a href="http://werp-gateway.chungyo.net:8000/scm/" target="_blank">e2-scm-manager</a></li>
+                                        <li><a href="https://e1-gitlab.iwerp.net/" target="_blank">e2-gitlab</a></li>
+                                        <li><a href="http://pinpoint-int10.iwerp.net/" target="_blank">e1-pinpoint</a> (add hosts 124.219.100.19 pinpoint-int10.iwerp.net)</li>
+                                        <li><a href="http://hotfix-portainer.iwerp.xyz/" target="_blank"> e1-portainer</a></li>
+                                        <li><a href="http://hotfix-portainer.iwerp.xyz:9000/" target="_blank"> e1-portainer:9000</a>(跳版內)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span>辦公室</span>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><a href="http://portainer.iwerp.test:9000/" target="_blank">portainer</a></li>
+                                        <li><a href="http://jenkins.iwerp.test:8080/" target="_blank">jenkins</a></li>
+                                        <li><a href="http://cy-sit.iwerp.xyz:9000/" target="_blank">sonarqube</a></li>
+                                        <!-- <li>SVN 版本管控：
+                                            <a href="https://svn.iwerp.test/svn/timegood/trunk/" target="_blank">中佑 TimeGood</a>,
+                                            <a href="https://svn.iwerp.test/svn/timegood_by/trunk/" target="_blank">寶盈 TimeGood</a>,
+                                            <a href="https://svn.iwerp.test/svn/timegood_yt/trunk/" target="_blank">亞太 TimeGood</a>
+                                        </li> -->
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- 文件／手冊 start -->
+                <div id="menu1" class="tab-pane fade">
+                    <div class="mt-70">
+                        <h4>文件／手冊</h4>
+                        <ul>
+                            <li><a href="references/poi-3.9/docs/">Apache POI 3.9</a></li>
+                            <li>Apache Shiro 1.2.2 API docs:
+                                <a href="http://shiro.apache.org/static/1.2.2/apidocs/org/apache/shiro/subject/Subject.html">Subject class</a>
+                            </li>
+                            <li>
+                                <a href="http://code.google.com/p/guava-libraries/">Guava library</a>,
+                                <a href="http://docs.guava-libraries.googlecode.com/git-history/release/javadoc/index.html">API DOC</a>
+                            </li>
+                            <li><a href="http://docs.oracle.com/javaee/">Java EE Technical Documentation</a>:
+                                <a href="http://docs.oracle.com/javaee/7/api/">Java EE 7 Platform API</a>
+                            </li>
+                            <li>Java SE Documentation:
+                                <a href="http://download.oracle.com/javase/7/docs/">Java SE 7</a>,
+                                <a href="http://download.oracle.com/javase/8/docs/">Java SE 8</a>
+                            </li>
+                            <li><a href="jlivedoc/">jLIVE Builder Documentation</a></li>
+                            <li>Joda-Time:
+                                <a href="http://www.joda.org/joda-time/quickstart.html">Quick start guide</a>,
+                                <a href="http://www.joda.org/joda-time/userguide.html">User guide</a>,
+                                <a href="http://www.joda.org/joda-time/apidocs/index.html">Javadoc</a>
+                            </li>
+                            <li><a href="references/apache-log4j-1.2.17/site/">log4j 1.2.17</a></li>
+                            <li>JSF Documentation:
+                                <a href="references/javax.faces-api-2.2-FINAL/">2.2</a>
+                            </li>
+                            <li>MySQL Referance Manual
+                                <a href="references/MySQL-5.0/">5.0</a>,
+                                <a href="references/MySQL-5.1/">5.1</a>,
+                                <a href="references/MySQL-5.5/">5.5</a>,
+                                <a href="references/MySQL-5.6/">5.6</a>,
+                                <a href="references/workbench-en.html-chapter/">MySQL Workbench</a>,
+                                <a href="references/mysql-connector-java-5.1.37/docs/connector-j.html">Connector/J</a>
+                            </li>
+                            <li><a href="http://omnifaces.org/">OmniFaces</a>:
+                                <a href="http://omnifaces.org/docs/javadoc/1.8/">v1.8 API doc</a>,
+                                <a href="http://omnifaces.org/docs/vdldoc/1.8/">v1.8 VDL doc</a>
+                            </li>
+                            <li>Power Process Suite 6.2.1 Java API Doc:
+                                <a href="references/PF621JavaDoc/">PowerForm</a>,
+                                <a href="references/PP621JavaDoc/">PowerProcess</a>
+                            </li>
+                            <li>PrimeFaces:
+                                <a href="http://www.primefaces.org/docs/vdl/5.0/core/">5.0 VDL</a>,
+                                <a href="http://www.primefaces.org/docs/vdl/5.1/core/">5.1 VDL</a>,
+                                <a href="http://www.primefaces.org/docs/vdl/5.2/core/">5.2 VDL</a>,
+                                <a href="http://www.primefaces.org/docs/vdl/5.3/core/">5.3 VDL</a>
+                            </li>
+                            <li><a href="TG_installation_guide.html">TG 安裝指南</a></li>
+                            <li>超義科技：
+                                <a href="references/utms-javadoc/">UTMS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 文件／手冊 end -->
+                <!-- 外部網站 start -->
+                <div id="menu2" class="tab-pane fade">
+                    <div class="mt-70">
+                        <h4>外部網站</h4>
+                        <ul>
+                            <li><a href="https://dinbendon.net/do/">訂便當管理系統</a></li>
+                            <li><a href="http://www.joda.org/joda-time/">Joda-Time</a></li>
+                            <li><a href="http://jquery.com/">jQuery</a></li>
+                            <li><a href="http://www.coreservlets.com/JSF-Tutorial/jsf2/">JSF 2.0 Tutorial</a></li>
+                            <li><a href="http://www.primefaces.org/">PrimeFaces</a></li>
+                            <li><a href="http://www.w3schools.com/">W3Schools Online Web Tutorials</a></li>
+                            <li><a href="http://openhome.cc/Gossip/">良葛格學習筆記</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 外部網站 end -->
+                <!-- jLIVE應用程式測試區 start -->
+                <!-- <div id="menu3" class="tab-pane fade">
+                    <div class="mt-70">
+                        <h4>jLIVE應用程式測試區</h4>
+                        <p><a href="http://www.timegood.com/tghelp/">TG Help</a></p>
+                        <table class="black">
+                            <thead>
+                                <tr>
+                                    <th width="50px">位置</th>
+                                    <th>應用程式</th>
+                                    <th width="50%">應用程式說明</th>
+                                    <th>Server Manager</th>
+                                    <th>位元版本</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="4">36F</td>
+                                    <td><a href="jNorth/jNorth.html">jNorthWind</a></td>
+                                    <td>jLIVE 內建的 demo 應用程式</td>
+                                    <td rowspan="4">
+                                        <p><a href="http://tg-test.bb.com:8080/servlet/com.probe.jslive.ProbeServlet/login.htm">Probe Application Server</a></p>
+                                        <p><a href="http://tg-test.bb.com:8080/">Tomcat 6</a></p>
+                                    </td>
+                                    <td rowspan="4">32-bit</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="werp/werp.html">TimeGood 測試環境（Public）</a></td>
+                                    <td>公用測試環境<br/>資料版本： 2016-12-30 12:35</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="werp_by/werp.html">TimeGood 測試環境（BY）</a></td>
+                                    <td>寶盈公用測試環境<br/>程式版本：<b style="color: blue;">寶盈 SVN</b> /trunk (rev. HEAD)<br/>資料版本： 2016-02-19 04:00</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="werp_dev/werp.html">TimeGood 測試環境（Dev）</a></td>
+                                    <td>公用測試環境，已經修改過但還沒正式發佈的程式都要放在這裡接受測試<br/>資料版本： 2016-12-12 04:00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                </div> -->
+
+                <!-- jLIVE應用程式測試區 end -->
+                <!-- 舊版Ｅ化入口 start -->
+                <!-- <div id="menu4" class="tab-pane fade">
+                    <div class="mt-70">
+                        <h4>舊版Ｅ化入口</h4>
+                        <p><a href="https://door.iwerp.net/oldindex.html">舊版Ｅ化入口</a></p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- 舊版Ｅ化入口 end -->
+    </div>
+    </div>
+
+
+
+
+
+    </div>
+    <!--tab -->
+    </div>
+    </div>
+    <!-- ##### Single Blog Area End ##### -->
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
+
+</html>
